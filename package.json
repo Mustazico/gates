@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest --environment jsdom",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@vueuse/core": "^10.10.0",
+    "mssql": "^10.0.2",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "vue-draggable-next": "^2.2.1",
+    "vue-router": "^4.3.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.12.0",
+    "@testing-library/vue": "^8.1.0",
+    "@types/mssql": "^9.1.6",
+    "@vue/compiler-sfc": "^3.4.29",
+    "@vue/test-utils": "^2.4.5",
+    "happy-dom": "^13.10.1",
+    "jsdoc": "^4.0.3",
+    "jsdoc-vuejs": "^4.0.0",
+    "jsdom": "^24.0.0",
+    "playwright-core": "^1.42.1",
+    "vitest": "^1.6.0"
+  }
+}
