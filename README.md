@@ -4,8 +4,11 @@ Fullstack project control
 =======
 # Introduksjon
 Dette er koden for prosjektet i forbindelse med min Bachelor. Oppgaven ble gjennomført i sammarbeid med TechnipFMC.
-Løsningen er et prosjektstyringsverktøy som holder oversikt over prosjekter. Prosjekter inneholder en gruppe gates, som igjen innheholder mange tasks.
-Prosjektene har 
+Løsningen er et prosjektstyringsverktøy som holder oversikt over prosjekter. Prosjekter inneholder gates som er en form for grupper. Hver gate innheholder mange tasks.
+
+Det er flere beregninger på hvert prosjekt for total progresjon i forhold til forventet leveringsdato (Schedulerd Finished) og leveringsdato (Purchase Order).
+Alle endringer som blir gjort på variabler knyttet til utregningene for progresjon, skaper en reaktiv og umiddelbar oppdatering for alle tilknyttede 
+variabler, både i back end og front end.
 
 Når de korrekte avhengigheter er innstallert kjøres applikasjonen ved kommando npm run dev.
 Koden kan for øyeblikket ikke kjøres ettersom databasen er koblet fra og ingen ny database er koblet opp.
