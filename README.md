@@ -3,9 +3,12 @@
 Fullstack project control
 =======
 # Introduksjon
-Dette er vårt prosjekt i forbindelse med faget DAT191 og den tilhørende bacheloroppgave. Ved sensur anbefales det at vercel (se link i systemdokumentasjonen) tas i bruk for å benytte seg av den tilhørende databasen gruppen har brukt underveis i utviklingen, men om dette ikke skulle være gjennomførbart kan gruppen kontaktes for å få tak i dens .env variabler. 
+Dette er koden for prosjektet i forbindelse med min Bachelor. Oppgaven ble gjennomført i sammarbeid med TechnipFMC.
+Løsningen er et prosjektstyringsverktøy som holder oversikt over prosjekter. Prosjekter inneholder en gruppe gates, som igjen innheholder mange tasks.
+Prosjektene har 
 
 Når de korrekte avhengigheter er innstallert kjøres applikasjonen ved kommando npm run dev.
+Koden kan for øyeblikket ikke kjøres ettersom databasen er koblet fra og ingen ny database er koblet opp.
 
 
 
